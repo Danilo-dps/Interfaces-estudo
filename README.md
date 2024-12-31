@@ -43,3 +43,8 @@
 - **Herança (reuso):** Permite reutilizar código existente. Subclasses herdam atributos e métodos da superclasse, e podem adicionar ou modificar comportamento.
 
 - **Interface (contrato a ser cumprido):** Define um conjunto de métodos que uma classe deve implementar, garantindo que certas funcionalidades estarão presentes sem ditar como devem ser implementadas.
+
+## Comparable
+### Inicialmente, as interfaces não tinham métodos default, a partir do java 8 passou a ter
+
+- A `interface Comparable` permite a implementação do método `comparableTo` que compara os objetos e os ordena da forma como forem definidos
