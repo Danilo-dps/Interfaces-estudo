@@ -24,3 +24,7 @@
 
 - Nesse terceiro exemplo, é feito o uso de interface e classe abstrata, para mostrar que é possivel fazer uma interface, que será implementada por uma classe abstrata, por ser abstrata, isso permite que ela não precise implementar os contratos que a interface obrigaria uma classe comum implementar 
 - A ``interface Shape`` é implementada pela ``classe abstrata AbstractShape``, o fato de ser abstrata permite que somente as classes que a herdam implemente os métodos 
+
+## Device
+
+- Nesse quarto exemplo, é mostrado com é feito a implementação de mais de uma interface por outra classe, mostrando que é possível uma classe implementar mais do que uma interface
