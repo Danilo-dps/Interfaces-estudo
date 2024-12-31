@@ -28,3 +28,18 @@
 ## Device
 
 - Nesse quarto exemplo, é mostrado com é feito a implementação de mais de uma interface por outra classe, mostrando que é possível uma classe implementar mais do que uma interface
+- Aqui é feito o uso de herança e interface, para mostrar as duas em uso simultâneo
+
+# Herança VS. Interface
+
+## Aspectos em Comum entre Herança e Interfaces
+
+- **Relação é-um:** É quando a classe que herda uma classe ou implementa uma interface, passa a ser um tipo correspondente a essa classe ou interface, respectivamente.
+- **Generalização/especialização:** A generalização identifica características comuns e as agrupa em uma superclasse ou interface. A especialização define comportamentos específicos para as subclasses que herdam ou implementam a interface.
+- **Polimorfismo:** É a capacidade de tratar objetos de diferentes classes de maneira uniforme, permitindo que o comportamento de métodos seja diferente conforme a classe específica do objeto em uso.
+
+## Diferença Fundamental
+
+- **Herança (reuso):** Permite reutilizar código existente. Subclasses herdam atributos e métodos da superclasse, e podem adicionar ou modificar comportamento.
+
+- **Interface (contrato a ser cumprido):** Define um conjunto de métodos que uma classe deve implementar, garantindo que certas funcionalidades estarão presentes sem ditar como devem ser implementadas.
