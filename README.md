@@ -48,3 +48,12 @@
 ### Inicialmente, as interfaces não tinham métodos default, a partir do java 8 passou a ter
 
 - A `interface Comparable` permite a implementação do método `comparableTo` que compara os objetos e os ordena da forma como forem definidos
+
+## Default Methods(Defender Methods)
+### Considerações importantes
+- Agora as interfaces podem prover reuso
+- Agora temos uma forma de herança múltipla
+- Mas o compilador reclama se houver mais de um método com a mesma
+assinatura, obrigando a sobrescreve-lo
+- Interfaces ainda são bem diferentes de classes abstratas. Interfaces
+não possuem recursos tais como construtores e atributos.
