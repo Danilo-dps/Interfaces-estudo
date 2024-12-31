@@ -19,3 +19,8 @@
 - A ``classe PaypalService`` implementa a ``interface Online PaymentService`` para calcular o valor do juros
 - A ``classe ContractService`` utiliza a ``interface Online PaymentService`` que faz o uso da ``classe PaypalService``
 - A injeção de dependência ocorre quando a instância da classe que implementa essa interface é fornecida a outra classe, geralmente através de um construtor ou de um método set, nesse exemplo está ocorrendo atraves do construtor.
+
+## Shape
+
+- Nesse terceiro exemplo, é feito o uso de interface e classe abstrata, para mostrar que é possivel fazer uma interface, que será implementada por uma classe abstrata, por ser abstrata, isso permite que ela não precise implementar os contratos que a interface obrigaria uma classe comum implementar 
+- A ``interface Shape`` é implementada pela ``classe abstrata AbstractShape``, o fato de ser abstrata permite que somente as classes que a herdam implemente os métodos 
