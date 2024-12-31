@@ -12,3 +12,10 @@
 - **Classe BrazilTaxService:** Implementa a **Interface TaxService** e faz a operação de calcular o valor do imposto.
 - **Classe RentalService:** Solicita o cálculo do imposto, sem precisar conhecer a implementação da ``classe BrazilTaxService``.
 
+## Installment Service
+
+- Nesse segundo exemplo de estudo, precisamos calcular o valor de cada parcela, baseado na quantidade de parcelas em que o total será dividido.
+- Usando da ``interface Online PaymentService`` para definir quais operações a classe que irá implementar deve ter.
+- A ``classe PaypalService`` implementa a ``interface Online PaymentService`` para calcular o valor do juros
+- A ``classe ContractService`` utiliza a ``interface Online PaymentService`` que faz o uso da ``classe PaypalService``
+- A injeção de dependência ocorre quando a instância da classe que implementa essa interface é fornecida a outra classe, geralmente através de um construtor ou de um método set, nesse exemplo está ocorrendo atraves do construtor.
