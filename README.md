@@ -1,4 +1,18 @@
-# Interfaces
+# Interfaces em Java
+
+Interfaces em Java são uma maneira poderosa de garantir que classes diferentes possam trabalhar juntas de forma coerente. Uma interface é um **contrato** que define um conjunto de métodos que uma classe deve implementar, mas não fornece a implementação desses métodos. Isso permite a criação de sistemas mais flexíveis e modulares.
+
+## Pontos chave sobre Interfaces em Java
+
+- **Definição de Métodos**: Interfaces apenas declaram métodos, sem implementação. As classes que implementam a interface devem fornecer a implementação para todos os métodos declarados.
+
+- **Implementação Múltipla**: Uma classe pode implementar várias interfaces, permitindo a combinação de comportamentos de diferentes fontes.
+
+- **Constantes**: Interfaces podem declarar constantes, que são implícitas como `public static final`.
+
+- **Herdabilidade**: Diferente das classes, que permitem herança única, as interfaces permitem que uma interface herde de múltiplas interfaces.
+
+- **Usos Comuns**: Interfaces são frequentemente usadas para definir capacidades que podem ser compartilhadas por classes não relacionadas, como `Comparable`, `Iterable` e `Runnable`.
 
 ## Car Rental
 
